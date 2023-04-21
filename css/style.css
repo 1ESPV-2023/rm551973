@@ -1,10 +1,11 @@
-.cabecalho{
+
+.cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000;
-    color: #fefefe;
-    height: 20vh;
+    color: #fff;
+    height: 30vh;
 }
 
 .container{
@@ -12,29 +13,27 @@
     justify-content: center;
     height: 60vh;
     width: 100%;
-    color: #fefefe;
+    color: #fff;
 }
 
 .banner-1{
     flex-grow: 1;
-    background-color: rgb(85, 14, 14);
+    background-color: #4b0606;
 }
-
 .conteudo{
     flex-grow: 5;
-    background-color: rgb(85, 90, 14);
+    background-color: #552329;
 }
-
 .banner-2{
     flex-grow: 1;
-    background-color: rgb(14, 85, 75);
+    background-color: #14033b;
 }
 
 .rodape{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-    color: #fefefe;
+    background-color: #32589f;
+    color: #fff;
     height: 20vh;
 }
