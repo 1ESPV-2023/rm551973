@@ -6,6 +6,10 @@
     background-color: #000;
     color: #fff;
     height: 30vh;
+    
+    background-image: url("../img/banner-1440x300-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container{
@@ -21,8 +25,16 @@
     background-color: #4b0606;
 }
 .conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex-grow: 5;
     background-color: #552329;
+    
+}
+.conteudo img{
+    padding: 12px;
 }
 .banner-2{
     flex-grow: 1;
